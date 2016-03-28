@@ -10,7 +10,7 @@ $(document).ready(function () {
 
   //connect
   var room = url + "settings";
-  socket = io.connect(room, {path: baseURL + "socket.io", resource : resource});
+  socket = io.connect(room, {resource : resource});
 
   socket.on('settings', function (settings) {
 

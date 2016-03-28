@@ -232,7 +232,7 @@ stepper:active{
 .timeslider-bar #editbar {
   border-bottom: none;
   float: right;
-  width: auto;
+  width: 180px;
 }
 .timeslider-bar h1 {
   margin: 5px
